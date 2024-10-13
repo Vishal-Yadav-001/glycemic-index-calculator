@@ -5,6 +5,7 @@ body {
   font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 18px;
+  font-optical-sizing: auto;
   margin: 0;
   padding: 0;
 }
@@ -32,31 +33,53 @@ body {
 h1{
   font-weight: 700;
   font-size: 48px;
-  font-optical-sizing: auto;
 }
 
 h2{
   font-weight: 700;
   font-size: 32px;
-  font-optical-sizing: auto;
 }
 
 h3{
   font-weight: 700;
   font-size: 24px;
-  font-optical-sizing: auto;
 }
 .description{
   font-weight: 600;
   font-size: 24px;
-  font-optical-sizing: auto;
 }
 
+.low h3{
+ 
+  color: green;
+}
 
+.medium h3{
+ 
+  color: orange;
+}
+
+.high h3{
+ 
+  color: red;
+}
+span{
+  font-weight: bold;
+  color: darkblue;
+}
+
+.responsive-image {
+  width: 100%;
+  height: auto;
+}
 
 /* Media query for mobile devices */
 @media (max-width: 768px) {
   .sections {
     flex-direction: column; /* Stack sections vertically on mobile */
   }
+
+ 
 }
+
+
